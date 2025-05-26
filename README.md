@@ -1,7 +1,3 @@
-Certainly! Here's the revised README without the installation section:
-
----
-
 # STXFlow Checkout Plugin
 
 **STXFlow** is a secure and user-friendly checkout plugin designed to integrate STX (Stacks) cryptocurrency payments into e-commerce platforms. It leverages blockchain technology to provide a seamless, transparent, and secure transaction experience for both merchants and customers.
