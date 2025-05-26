@@ -7,6 +7,14 @@ cache_dir = '.\.cache'
 requirements = []
 [contracts.Auto-refund]
 path = 'contracts/Auto-refund.clar'
+clarity_version = 1
+epoch = 2.05
+
+[contracts.escrow-contract]
+path = 'contracts/escrow-contract.clar'
+clarity_version = 3
+epoch = 3.0
+
 [contracts.payment-processing]
 path = 'contracts/payment-processing.clar'
 clarity_version = 3
