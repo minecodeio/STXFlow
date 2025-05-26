@@ -5,6 +5,8 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.Auto-refund]
+path = 'contracts/Auto-refund.clar'
 [contracts.payment-processing]
 path = 'contracts/payment-processing.clar'
 clarity_version = 3
