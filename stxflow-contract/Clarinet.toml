@@ -15,6 +15,11 @@ path = 'contracts/escrow-contract.clar'
 clarity_version = 3
 epoch = 3.0
 
+[contracts.loyalty-rewards]
+path = 'contracts/loyalty-rewards.clar'
+clarity_version = 3
+epoch = 3.0
+
 [contracts.payment-processing]
 path = 'contracts/payment-processing.clar'
 clarity_version = 3
