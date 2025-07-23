@@ -60,7 +60,7 @@
   (+ (var-get payment-timestamp) (var-get refund-window-blocks)))
 
 (define-read-only (is-refund-window-expired)
-  (> stacks-block-height (get-refund-deadline)))
+  (> block-height (get-refund-deadline)))
 
 (define-read-only (get-refund-reason)
   (var-get refund-reason))
@@ -111,7 +111,7 @@
       
       (match (stx-transfer? amount tx-sender (as-contract tx-sender))
         success (begin
-          (var-set payment-timestamp stacks-block-height)
+          (var-set payment-timestamp block-height)
           (var-set contract-state STATE-PAYMENT-RECEIVED)
           (ok true)
         )
