@@ -29,6 +29,11 @@ epoch = 3.0
 path = 'contracts/receipt-token.clar'
 clarity_version = 3
 epoch = 3.0
+
+[contracts.time-locked]
+path = 'contracts/time-locked.clar'
+clarity_version = 3
+epoch = 3.0
 [repl.analysis]
 passes = ['check_checker']
 
